@@ -1,0 +1,7 @@
+spring:
+  batch:
+    jdbc:
+      initialize-schema: always
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
